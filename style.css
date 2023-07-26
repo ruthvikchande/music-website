@@ -1,0 +1,189 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #350660;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: #6c39fa;
+  }
+  h2{
+    text-align: end;
+    color: white;
+    padding: 8px 14px;
+  }
+  .heroimage{
+    width: 100%;
+    height: auto;
+  }
+  .heroimage img{
+    width: 100%;
+    height: auto;
+  }
+  .heroimage{
+    position: relative;
+    text-align: center;
+  }
+  .box{
+    /* background-color: aquamarine; */
+    /* border: 2px solid grey; */
+    position: absolute;
+    bottom: 385px;
+    left: 310px;
+    color: white;
+  }
+  .box h1{
+    font-size: 48px;
+    margin: 15px;
+  }
+  .box h4{
+    font-size:28px ;
+    margin: 15px;
+  }
+  .box p{
+    margin: 26px;
+  }
+  .music{
+    background-color: #350660;
+    text-align: center;
+    padding: 35px 25px;
+    height: 650px;
+    width: 100%;
+    color: white;
+  }
+  .music h1{
+    padding: 15px 10px;
+
+  }
+  .music h4{
+    padding: 5px;
+  }
+  .music p{
+    padding: 25px 10px;
+    padding-bottom: 10px;
+  }
+  .music button{
+    padding: 8px;
+    background-color: rgb(245, 25, 25);
+    margin: 15px;
+  }
+  .box2{
+    text-align: center;
+    color: black;
+  }
+  .box2 h2{
+    position: relative;
+    text-align: center;
+    color: black;
+    top: 450px;
+    font-size: 38px;
+  }
+  .box2 p{
+    position: relative;
+    text-align: center;
+    color: black;
+    top: 450px;
+    margin: 15px;
+
+  }
+  .box2 button{
+    position: relative;
+    text-align: center;
+    color: white;
+    top: 450px;
+    padding: 15px;
+    background-color: #350660;
+    margin: 15px;
+  }
+  .macimage{
+    position: relative;
+    top: 450px;
+
+  }
+  .entertainment{
+    position: relative;
+    top: 450px;
+
+  }
+  .entertainment img{
+    width: 100%;
+  }
+  .entertainment h2{
+    position: absolute;
+    top: 250px;
+    left: 400px;
+    text-align: center;
+    font-size: 34px;
+    /* margin: 25px; */
+  }
+  .entertainment p{
+    position: absolute;
+    top: 300px;
+    left: 300px;
+    color: white;
+    /* padding: 16px; */
+    margin: 25px;
+    /* text-align: center; */
+
+  }
+  .giftsection{
+    /* border: 2px solid grey; */
+position: absolute;
+top: 3600px;
+left: 80px;
+display: flex;
+/* text-align: left; */
+
+  }
+  .giftsection img{
+    height: 350px;
+  }
+  .content h1{
+    font-size: 38px;
+    margin: 10px;
+    /* border: 2px solid grey; */
+  }
+  .content p{
+    margin: 10px;
+    letter-spacing: 21x;
+    line-height: 1.5;
+  }
+  .content button{
+    padding: 16px;
+    margin: 8px 15px;
+    background-color: #350660;
+    color: white;
+  }
+  .footer{
+    position: relative;
+    top: 870px;
+    background-color: #350660;
+    text-align: center;
+    color: white;
+}
+.footer h3{
+    background-color: #350660;
+    padding: 25px 25px;
+    margin: 30px;
+}
